@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Pablo F Bispo
-    tagline: Data Scientist
+    tagline: Data Lead
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -105,6 +105,10 @@ experiences:
           error sit voluptatem accusantium doloremque laudantium, totam rem
           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
           architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+        tldr: |
+          Describe shortly your role here, or add just the bullet points
             - Bullet point
             - Bullet point
       - role: Senior Software Engineer
