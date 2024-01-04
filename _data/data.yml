@@ -9,15 +9,18 @@ sidebar:
 
     # Profile information
     name: Pablo F Bispo
+    first_name: Pablo
     tagline: Data Lead
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: pablofernando@live.com
     phone: +55 (34) 99836-0511
-    timezone: America/Cancun Timezone
+    phone_numbers_only: "+5534998360511"
+    whatsapp_message: "I found your contact on your website and would like to get in touch with you."
+    timezone: #America/São Paulo Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: #blog.webjeda.com #do not add http://
     linkedin: pablobispo
     xing:
     github: pablobispo
@@ -42,228 +45,279 @@ sidebar:
         - idiom: Spanish
           level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Snowboarding
-          link:
+    #     - item: Snowboarding
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: Sobre mim
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      Data Scientist e Software Engineer com +5 anos de carreira, 
+      expert em se adaptar a qualquer contexto e criar soluções de alto impacto 
+      independente das tecnologias utilizadas.
+      
+      Atualmente liderando times de dados na Strm Music. 
+      
+      Keep it simple, Sir!
+skills:
+    title: "[soft/hard] Skills &amp; Proficiency"
+
+    toolset:
+      - name: Python
+        level: 100%
+
+      - name: SQL
+        level: 98%
+
+      - name: Data Science
+        level: 90%
+
+      - name: React JS
+        level: 86%
+
+      - name: AWS
+        level: 92%
+
+      - name: Storitelling
+        level: 96%
+
+      - name: Leadership
+        level: 81%
+      
+      - name: Communication skills
+        level: 98%
+
+      - name: Flutter
+        level: 78%
+
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+      - role: Head of Data Science | Data Lead
+        time: Sep, 2022 - Present
+        company: Strm Music, SP
         tldr: |
+          Ciência de Dados está no coração da Strm, e como Head da área de dados 
+          e lider técnico, sou responsável pelo planejamento estratégico, 
+          priorização e alinhamento dos objetivos junto à diretoria e 
+          lideranças, além da gestão técnica do time.
+          
+          Alguns de nossos entregáveis foram:
+            - Desenvolvimento de modelos de Machine Learning para:
+              - Predição de performance de ativos musicais.
+              - Modelagem de risco de concessão de crédito.
+              - Recomendação de ações estratégicas para aumento da performance 
+              dos artistas.
+              - Detecção de possíveis ativos de alta valorização em períodos 
+              definidos.
+            - Geração de insights analiticos sobre os artistas para 
+            acompanhamento de métricas relevantes para os artistas 
+            e seus respectivos empresários. E também o monitoramento interno 
+            das métricas de performance dos mesmos.
+            - Revisão e correção de métricas já existentes.
+            - Estruturação do time e padronização de processos de 
+            desenvolvimento e modelagem.
+          
+          Atuei tanto no desenvolvimento dos entregáveis acima, quanto no 
+          alinhamento com os stakeholders e alinhamento dos objetivos e 
+          entregas junto às lideranças.
+          
+          As principais tecnologias usadas foram: **Python** e **SQL** na 
+          **AWS** cloud, tendo como bases de dados AWS **Athena** e 
+          **Redshift**, além de libs em Python para processamento e tratamento 
+          de dados e desenvolvimento de modelos de ML. 
+
+      - role: Data Scientist
+        time: Nov, 2021 - Jul, 2022
+        company: Inventa Shop, SP
+        details: |
+          Como Cientista de Dados na Inventa, tive a oportunidade de atuar no 
+          desenvolvimento das principais soluções financeiras utilizadas na 
+          *concessão de crédito* para PJs, reduzindo drasticamento nossa 
+          exposição ao risco de crédito, permitindo assim um deploy de mais 
+          rápido do nosso capital de forma mais segura e rentável.
+  
+
+          Os principais projetos que atuei foram:
+            - **Redução do *default* médio em 40%**, através do desenvolvimento de 
+            modelos de Machine Learning prever risco de não pagamento de 
+            _empréstimo_ concedido.
+            - **Detecção de perfís fraudulentos com precisão superior a 90%**.
+            - Aumento na performance dos times de **collections** (recuperação),
+            através do desenvolvimento de modelos que possibilitavam a identificação
+            de perfís com **maior probabilidade de sucesso nas negociações para 
+            quitação de dívidas**.
+            - **Coordenação do time de dados para migração de toda a _stack_** de 
+            "tranformação" e processamento de dados para o **DBT** e **Snowflake**. 
+            Democratizando o acesso a dados dentro da companhia, 
+            garantindo uma **maior confiabilidade dos dados** e permitindo a criação 
+            de métricas específicas para cada área da empresa.
+
+
+      - role: Software Engineer
+        time: Mar, 2021 - Nov, 2021
+        company: Dock Tech, SP
+        details: |
+          Como Software engineer na Dock Tech, atuei na squad de Product Hacking,
+          onde o objetivo era o desenvolvimento de soluções para o aumento de performance
+          dos times internos. 
+          
+          Nesse contexto o foco principal era compreender as principais _dores_
+          de nossos colaboradores, para assim, propor, desenvolvolver e implantar soluções 
+          de grande impacto em nossa empresa.
+            - Geração de insights de desempenho de squads e seus processos internos, 
+            facilitando a identificação de possíveis gargalos e pontos de melhoria.
+            - Desenvolvimento de Chatbots para facilitar o acesso a dados úteis, 
+            de forma consistente e segura para os squads e stakeholders.
+            - Mapeamento e automação de processos manuais, reduzindo assim erros humanos e 
+            aumentando o foco dos times nas atividades mais relevantes.
+            - Construção de ferramentas gerais e aplicações para aprimorar o desempenho dos times internos.
+
+      - role: Data Scientist
+        time: Aug, 2020 - Mar, 2021
+        company: Lett Insights, BH
+        tldr: |
+          Na Lett o meu objetivo principal como Cientista de dados era extrair insights relevantes
+          de nossos dados, conduzir processos de análise exporatória de dados e 
+          desenvolver modelos de Machine Learning para aprimorar a categorização de produtos
+          e extrair informações relevantes das imagens apresentadas para os mesmos produtos.
+          Algumas das atividades que atuei foram:
+            - Extração e mineração de dados de e-commerce, geração de insights 
+            relevantes para os times internos e clientes, análises 
+            exploratórias de dados, projetos de processamento de texto para 
+            detecção de falhas e detecção de "outliers" textuais.
+            - Projetos de visão computacional para classificação de imagens de 
+            e-commerce e extração de informação de imagens.
+            - Geração de métricas e insights com base em benchmark de concorrentes.
+        details: |
           Describe shortly your role here, or add just the bullet points
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+
+      - role: Computer Vision Analyst
+        time: May, 2020 - Aug, 2020
+        company: Tirrell Soluções, Uberlândia/MG
+        tldr: |
+          Como Analista de Visão computacional, atuei no desenvolvimento e aprimoramento de 
+          modelos para identificação de fraude em documentos de identificação. 
+          Sendo algumas das principais atividades:
+            - Aprimoramento de rotinas de detecção de fraude em documentos de identificação.
+            - Desenvolvimento de modelo para identificação de fraudadores através de reconhecimento facial.
+            - Aprimoramento do OCR que realizava a extração dos dados de documentos.
+            - Aprimoramento dos modelos de detecção de documentos.
+            - Criação de modelos para avaliação da qualidade dos documentos.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
+          Describe shortly your role here, or add just the bullet points
             - Bullet point
             - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Python Developer
+        time: May, 2019 - May, 2020
+        company: Morpheus Tecnologia
+        tldr: |
+            - Desenvolvimento de sistema utilizando Visão Computacional para controle de acesso, 
+            garantindo que apenas pessoas autorizadas teriam acesso ou permaneceriam em determinados ambientes, 
+            ou próximas a determinados equipamentos.
+            - Contagem de produtos utilizando Visão Computacional e geração de métricas de "organização" de prateleiras.
+            - Uso de Processamento de Linguagem Natural (NLP) para extração de Feedbacks relevantes em áudios.
+            - Extração de dados em formulários manuscritos utilizando Reconhecimento Óptico de Caracteres (OCR).
+            - Desenvolvimento de Web Crawlers para obtenção de dados de mercado para comparação de preço.
+            - Predição de valores de produto e previsão de demanda.
+            - Processamento de dados de comércio e geração de dashboards para visualização.
+            - Projetos de Eletrônica, IOT e sensoriamento.
+        details: |
+          Describe shortly your role here, or add just the bullet points
+            - Bullet point
+            - Bullet point
+  # education:
+#     title: Education
+#     info:
+#       - degree: MSc in Computer Science
+#         university: University of London
+#         time: 2011 - 2012
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+#       - degree: BSc in Applied Mathematics
+#         university: Bristol University
+#         time: 2007 - 2011
+#         details: |
+#           Describe your study here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#           sociis natoque penatibus et magnis dis parturient montes, nascetur
+#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#           pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
+    title: Long description
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      Engenheiro de Software e Cientista de dados com mais de cinco anos de experiência.
+      Tendo como principal diferencial a capacidade de aprender novas habilidades e se adequar a contextos adiversos,
+      o que me permite criar soluções relevantes para o negócio independente do contexto ou tecnologias utilizadas.
+      Atualmente Head of Data Science na Strm Music, onde liderei a equipe de dados
+       no desenvolvimento de modelos de machine learning para predição de performance 
+       de ativos musicais, modelagem de risco de concessão de crédito e recomendação 
+       de ações estratégicas para aumento da performance de artistas. Tendo anteriormente atuado
+       como cientista e desenvolvedor em contexto de negócio variados e em todos eles pude
+       entregar soluções de alto impacto.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
