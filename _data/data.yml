@@ -80,13 +80,13 @@ skills:
       - name: Data Science
         level: 90%
 
-      - name: React JS
+      - name: Machine Learning
         level: 86%
 
       - name: AWS
         level: 92%
 
-      - name: Storitelling
+      - name: Storytelling
         level: 96%
 
       - name: Leadership
@@ -95,7 +95,7 @@ skills:
       - name: Communication skills
         level: 98%
 
-      - name: Flutter
+      - name: ReactJs
         level: 78%
 
 
